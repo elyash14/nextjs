@@ -9,6 +9,7 @@ import { IPost } from "types/post";
 interface IHomeProps {
   posts: IPost[];
 }
+
 const Home: NextPage<IHomeProps> = ({ posts }) => {
   return (
     <div>
@@ -26,8 +27,6 @@ const Home: NextPage<IHomeProps> = ({ posts }) => {
           <Post key={`home-post-${post.id}`} post={post} />
         ))}
       </main>
-
-      <footer></footer>
     </div>
   );
 };

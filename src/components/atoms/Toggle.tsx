@@ -21,6 +21,7 @@ const Toggle: React.FC<IToggleProps> = (props) => {
             src={imageChecked}
             width={16}
             height={16}
+            alt="toggle-checked"
           />
         </ToggleImage>
       )}
@@ -31,6 +32,7 @@ const Toggle: React.FC<IToggleProps> = (props) => {
             src={imageUnchecked}
             width={16}
             height={16}
+            alt="toggle-unchecked"
           />
         </ToggleImage>
       )}

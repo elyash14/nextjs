@@ -14,7 +14,12 @@ const Profile: React.FC = () => {
   return (
     <StyledFooter>
       <CircleImage>
-        <Image src="/profile.jpeg" width={56} height={56} />
+        <Image
+          src="/profile.jpeg"
+          width={56}
+          height={56}
+          alt="profile picture"
+        />
       </CircleImage>
       <ProfileTitle>
         <span>Personal blog by</span>&nbsp;
