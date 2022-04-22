@@ -5,8 +5,8 @@ const darkTheme: Theme = {
     background: '#282c35',
     typography: '#fff',
     colors: {
-        primary: '#ffa7c4',
-        secondary: '#eddc1a'
+        primary: '##d23669',
+        secondary: '#ffa7c4'
     },
 }
 
