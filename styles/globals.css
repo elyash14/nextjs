@@ -6,6 +6,21 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.light-wrapper {
+  display: flex;
+  background-color: #fff;
+  color: #222;
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+}
+.dark-wrapper {
+  display: flex;
+  background-color: #282c35;
+  color: #fff;
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+}
+
 a {
   color: inherit;
   text-decoration: none;
